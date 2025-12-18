@@ -18,9 +18,6 @@ A secure multi-user login system built in Python using:
 ## 🧠 Why this project?
 Built for learning authentication, security fundamentals, and Python logic.
 
-## 🛠️ How to run
-```bash
-
 📌 Future Improvements
 
 Save users to file (JSON)
@@ -29,5 +26,7 @@ Progressive lockouts
 
 GUI or web version
 
+## 🛠️ How to run
+```bash
 python main.py
 
