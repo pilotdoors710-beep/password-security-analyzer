@@ -1,5 +1,5 @@
 # password-security-analyzer
-# 🔐 Python Login System
+# 🔐 Python Login System and security analyzer
 
 A secure multi-user login system built in Python using:
 - PBKDF2-HMAC-SHA256 password hashing
