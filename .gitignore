@@ -1,0 +1,6 @@
+# Ignore user data
+users.json
+
+# Python cache
+__pycache__/
+*.pyc
