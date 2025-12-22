@@ -136,13 +136,14 @@ def login():
             account["last_login"] = time.ctime()
             account["incorrect"] = 0
             account["lock_until"] = None
-            return
             save_users()
+            return
         else:
             account["incorrect"] += 1
             print("❌ Incorrect password")
 
     account["lock_until"] = time.time() + 30
+    save_users()
     print("🔒 Too many attempts. Locked for 30 seconds")
 
 def reset_password():
@@ -166,7 +167,7 @@ def reset_password():
     account["hashed"] = new_hash
     account["incorrect"] = 0
     account["lock_until"] = None
-
+    save_users()
     print("🔁 Password reset successful")
 
 while True:
@@ -190,3 +191,4 @@ while True:
         break
     else:
         print("❌ Invalid option")
+
