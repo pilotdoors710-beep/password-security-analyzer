@@ -20,8 +20,6 @@ Built for learning authentication, security fundamentals, and Python logic.
 
 📌 Future Improvements
 
-Save users to file (JSON)
-
 Progressive lockouts
 
 GUI or web version
